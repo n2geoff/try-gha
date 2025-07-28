@@ -13,7 +13,7 @@ jobs:
         with:
           context: .
           push: false
-          tags: n2geoff/try-gha:latest
+          tags: ghcr.io/n2geoff/try-gha:latest
 
       - name: List files in the repository
         run: |
