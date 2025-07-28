@@ -1,5 +1,5 @@
 name: Build Docker Image
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: Testing Docker Image GHA Job
 on: [workflow_dispatch]
 jobs:
   Build-Docker-Image:
