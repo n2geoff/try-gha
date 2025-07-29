@@ -18,7 +18,7 @@ jobs:
       - name: Build Image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ..
           file: ./docker/Dockerfile
           push: true
           tags: ghcr.io/n2geoff/try-gha:latest
